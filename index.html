@@ -1,27 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    <!-- These meta tags come first. -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Bootstrap Theme Example</title>
 
-    <title>Hello, world!</title>
+    <!-- Include the CSS -->
+    <link href="dist/toolkit-startup.min.css" rel="stylesheet">
   </head>
+
   <body>
-    <div class="container">
-      <object data="images/logo.svg" type="image/svg+xml" width="275px" class="pt-3" />
-      <h1>Placeholder Title</h1>
+    
+    <div class="block text-center">
+      <h1 class="block-title">Placeholder Title</h1>
+      <h4 class="text-muted">Use these to package stackable, image driven content.</h4>
     </div>
+  
+  <div class="block">
+    <div class="container-fluid">
+  <div class="row my-4">
+    <div class="col-sm-6">
+      <ul class="featured-list featured-list-bordered">
+        <li class="mb-5">
+          <div class="featured-list-icon">
+            <span class="icon icon-dropbox"></span>
+          </div>
+
+          <h3>Save things</h3>
+          <p>
+            Use dropbox to save things in the "cloud" because throwing things away is stressful and this way you don't have to.
+          </p>
+        </li>
+
+        <li>
+          <div class="featured-list-icon">
+            <span class="icon icon-github"></span>
+          </div>
+          <h3>Fork things</h3>
+          <p>
+            Use github to share things on the internet then change them. Make things better. Free software? But not as in beer.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-6">
+      <ul class="featured-list featured-list-bordered">
+        <li class="mb-5">
+          <div class="featured-list-icon">
+            <span class="icon icon-medium"></span>
+          </div>
+
+          <h3>Write things</h3>
+          <p>
+            Use Medium to write things down and sound smart. Also when you write, your writings looks pretty and that is cool.
+          </p>
+        </li>
+
+        <li>
+          <div class="featured-list-icon">
+            <span class="icon icon-twitter"></span>
+          </div>
+          <h3>Tweet things</h3>
+          <p>
+            Use twitter to share 140 characters worth of anything you want. Pictures, videos, etc. It doesn't really matter.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+  </div>
+
 
     <!--- Pricing Table -->
-    <div class="container">
+    <div class="block">
       <table class="table">
         <thead>
           <tr>
-            <th scope="col">Time</th>
+            <th scope="col"></th>
             <th scope="col">Charge</th>
           </tr>
         </thead>
@@ -45,8 +104,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="dist/toolkit.min.js"></script>
   </body>
 </html>
